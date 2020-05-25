@@ -1,0 +1,6 @@
+IMPERAS_HOME := $(shell getpath.exe "$(IMPERAS_HOME)")
+NOVLNV?=1
+
+include $(IMPERAS_HOME)/ImperasLib/buildutils/Makefile.harness
+#include /home/iacana/git_workspace/OVP_NoC/harness/Makefile.harness
+
